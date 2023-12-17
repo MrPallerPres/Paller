@@ -1,0 +1,134 @@
+<html>
+<head>
+<title>I AM</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+    .container{display:grid;
+	    grid-template-columns:1fr 4fr ;
+	    grid-template-rows:  50px 250px 50px;
+		border: solid black 2px;}
+		
+	.header{background-color:red;
+	    font-size: 2em;
+		border: solid black 1px;
+		grid-column: 1 / span 3;
+		text-align: center;}
+		
+	.nav{background-color:green;
+	    font-size: 20px;
+		border: solid black 1px;
+		text-align: center;
+		padding:10px;
+		}
+		
+	.main{background-color:brown;
+	    font-size: 1em;
+		border: solid black 1px;
+		text-align: center;}
+		
+	.footer{background-color:pink;
+	    font-size: 25px;
+		border: solid black 1px;
+		text-align: center;
+		grid-column:1 / span 3;}
+		
+	.p{font-size: 15px;
+	    font-style: italic;}
+		
+	@media only screen and (max-width: 600px) {
+	
+    .container{display:grid;
+	    grid-template-columns:1fr 4fr ;
+	    grid-template-rows:  75px 375px 75px;
+		border: solid black 2px;}
+		
+	.header{background-color:#00ffff;
+	    font-size: 2em;
+		border: solid black 1px;
+		grid-column: 1 / span 3;
+		text-align: center;}
+		
+	.nav{background-color:#ffff00;
+	    font-size: 25px;
+		border: solid black 1px;
+		text-align: center;
+		}
+		
+	.main{background-color:#ffffff;
+	    font-size: 1em;
+		border: solid black 1px;
+		text-align: center;}
+		
+	.footer{background-color:ff0000;
+	    font-size: 20px;
+		border: solid black 1px;
+		text-align: center;
+		grid-column:1 / span 3;}
+		
+	.p{font-size: 15px;
+	    font-style: italic;}
+	}
+	
+	@media only screen and (max-width: 350px) {
+	
+    .container{display:grid;
+	    grid-template-columns:1fr 4fr ;
+	    grid-template-rows:  100px 500px 100px;
+		border: solid black 2px;}
+		
+	.header{background-color:#00ffff;
+	    font-size: 2em;
+		border: solid black 1px;
+		grid-column: 1 / span 3;
+		text-align: center;}
+		
+	.nav{background-color:#ffff00;
+	    font-size: 30px;
+		border: solid black 1px;
+		text-align: center;
+		}
+		
+	.main{background-color:#ffffff;
+	    font-size: 1em;
+		border: solid black 1px;
+		text-align: center;}
+		
+	.footer{background-color:ff0000;
+	    font-size: 20px;
+		border: solid black 1px;
+		text-align: center;
+		grid-column:1 / span 3;}
+		
+	.p{font-size: 15px;
+	    font-style: italic;}
+	}
+</style>
+</head>
+<body>
+<div class="container">
+<div class="header">Header</div>
+<div class="nav">
+     Navigation 
+	 <ul style="list-style-type:disc;">
+	 <li><a href="index.html"> ABOUT ME</a></li>
+	 <li><a href="iam.html"> I AM</a></li>
+	 <li><a href="hobbies.html">MY HOBBIES</a></li>
+	 <li><a href="school.html">MY SCHOOL</a></li>
+	  <li><a href="family.html">MY FAMILY</a></li>
+	 </ul>
+</div>
+<div class="main">
+    <h1>I AM</h1>
+<p class="p">My Name is Sylvester B. Paller, I was born on August 6 2009. And I live in Jugan Consolacion Cebu in the Philippines. And because of my life
+experiences I can tell myself that I am proud of my life and accomplishesments.</p>
+ 
+ <img src="SvEating.jpg" width="100px" height="150px">
+</div>
+
+<div class="footer">Made by: Sylvester B. Paller</div>
+</div>
+
+
+</body>
+</html>
